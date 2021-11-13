@@ -1,0 +1,11 @@
+body {
+    box-shadow: 1 1 10px rgba(4,5,7,1.5);
+    font-family:'Times New Roman', Times, serif;
+    background-color:rgb(216, 169, 243);
+    color: darkblue;
+  }
+.avatar{
+    border-radius: 50%;
+    width: 200px;
+
+}
