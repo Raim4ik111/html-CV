@@ -5,10 +5,53 @@
     <link rel="stylesheet" href="style.css"/>
   </head>
   <body>
+    <ul class="dropdown">
+    <li>Home</li>
+    <li>
+        <div>Patterns</div>
+        <!-- First level sub dropdown -->
+        <ul>
+            <li>Layout</li>
+            <li>Input</li>
+            <li>
+                <div>Navigation</div>
+                <!-- Second level sub dropdown -->
+                <ul>
+                    <li>Breadcrumb</li>
+                    <li>Dropdown</li>
+                    <li>Menu</li>
+                    <li>Nested dropdown</li>
+                </ul>
+            </li>
+            <li>Display</li>
+            <li>Feedback</li>
+        </ul>
+    </li>
+    <li>
+      <div>Products</div>
+        <!-- First level sub dropdown -->
+        <ul>
+            <li>Layout</li>
+            <li>Input</li>
+            <li>
+                <div>Navigation</div>
+                <!-- Second level sub dropdown -->
+                <ul>
+                    <li>Breadcrumb</li>
+                    <li>Dropdown</li>
+                    <li>Menu</li>
+                    <li>Nested dropdown</li>
+                </ul>
+            </li>
+            <li>Display</li>
+            <li>Feedback</li>
+        </ul>
+    <li>About</li>
+</ul>
     <table cellspacing="15">
         <tr>
             <td>
-                <img src="foto.jpg"  alt="это моя фотка" class="avatar" />
+                <img src="https://github.com/Raim4ik111/html-CV/blob/main/foto.jpg?raw=true"  alt="это моя фотка" class="avatar" />
             </td>
             <td>
                 <h2>Миррасим Сулейманлы Мирфаиг оглы</h2>
@@ -23,13 +66,15 @@
     <ul>
       <li>
         <a href="https://www.instagram.com/dojd_idyot/" target="_blank"
-          >Insagram</a
-        >
+          ></a> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/20px-Instagram_logo_2016.svg.png">
       </li>
-      <li><a href="https://t.me/rasimidet" target="_blank">Telegram</a></li>
+      <li><a href="https://t.me/rasimidet" target="_blank"></a>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Telegram_2019_Logo.svg/20px-Telegram_2019_Logo.svg.png" 
+      </li>
     </ul>
     <hr />
     <h2>Связаться со мной</h2>
+    <div class="container">
     <form>
         <label for="name"> Ваше имя:</label>
         <input type="text" id="name" placeholder="Введите...">
@@ -40,7 +85,7 @@
         <label for="text">Ваше сообщение:</label><br>
         <textarea id="text" rows="2" cols="15"></textarea><br>
         <input  type="submit" value="Связаться" >
-        
+      </div>    
     </form>
     <hr />
     <h2>Мои хобби</h2>
@@ -49,6 +94,6 @@
       <li>Спорт</li>
       <li>Обучение</em></li>
     </ol>
-    
+ 
   </body>
 </html>
